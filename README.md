@@ -1,1 +1,1 @@
-# wc - Web Console for XMPP
+# wc - Web Console
