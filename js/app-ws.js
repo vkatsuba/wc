@@ -5,7 +5,7 @@ jQuery(document).ready(function() {
   // Connect to WS
   function connect(wsHost, wsProtocol){
     //var wsProtocol = window.location.protocol == 'https:' ? 'wss://' : 'ws://';
-  //  var wsHost = wsProtocol + window.location.host + "/ws";
+    //var wsHost = wsProtocol + window.location.host + "/ws";
 
     websocket = new WebSocket(wsHost, wsProtocol);
 
